@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #212529;
+}
+nav li {
+  margin: 20px;
+  list-style: none;
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+nav li a:hover {
+  background-color: #696969;
+}/*# sourceMappingURL=external-style.css.map */

@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: inline-block;
+    padding:20px;
+    background-color: #ECF1F7;
+}
+label{
+    display: block;
+    color: gray;
+    margin: 5px 0px;
+}
+input{
+    padding: 5px;
+}
+textarea{
+    display: block;
+}
+.buttons{
+    width: 60%;
+    margin: auto;
+}
+button{
+    margin: 12px;
+    color: #fff;
+    background-color: #00B7FF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 10px 18px grey;
+    cursor: pointer;
+}

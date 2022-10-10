@@ -1,0 +1,47 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes example {
+    0% {
+        background-color: rgb(20, 20, 197);
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: rgb(13, 13, 106);
+        border-radius: 50%;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: rgb(18, 18, 67);
+        border-radius: 75%;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color:rgb(27, 27, 63);
+        border-radius: 100%;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: rgb(55, 55, 69);
+        left: 0px;
+        top: 0px;
+    }
+}
